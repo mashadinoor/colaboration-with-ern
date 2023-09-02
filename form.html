@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tugas Pertama</title>
+  </head>
+  <body>
+    <center>
+      <h1>Formulir Biodata</h1>
+      <table cellspacing="10">
+        <tr>
+          <td><a href="index.html">Home</a></td>
+          <td><a href="form.html">Form Tugas</a></td>
+          <td><a href="about.html">Biodata</a></td>
+        </tr>
+      </table>
+    </center>
+    <p style="text-align: center">
+      Segala data yang diinputkan di sini, tidak disimpan/diproses/dipergunakan sedikit pun, <br />
+      karena website ini bersifat statis dan hanya dibuat dengan HTML + CSS <br />
+      dan dibuat untuk keperluan tugas.
+    </p>
+
+    <center>
+      <form>
+        <table border="0" cellspacing="2">
+          <tr>
+            <td width="250px">First name</td>
+            <td width="250px">Middle Name</td>
+          </tr>
+          <tr>
+            <td><input type="text" name="firstName" /></td>
+            <td><input type="text" name="lastName" /></td>
+          </tr>
+          <tr>
+            <td>Gender</td>
+          </tr>
+          <tr>
+            <td>
+              <select name="gender">
+                <option value="1">Male</option>
+                <option value="2">Female</option>
+                <option value="3">Unknown</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td>Tempat Lahir</td>
+            <td>Tanggal Lahir</td>
+          </tr>
+          <tr>
+            <td><input type="text" name="birthLocation" /></td>
+            <td><input type="date" name="birthDate" /></td>
+          </tr>
+          <tr>
+            <td>Pertanyaan</td>
+          </tr>
+          <tr>
+            <td colspan="2"><textarea cols="46" rows="6"></textarea></td>
+          </tr>
+          <tr>
+            <td colspan="2">
+              <button type="submit" name="send">Kirim</button>
+            </td>
+          </tr>
+        </table>
+      </form>
+    </center>
+  </body>
+</html>
